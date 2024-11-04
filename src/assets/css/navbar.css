@@ -1,0 +1,69 @@
+.escudo{
+    height: 50px;  
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #252850;
+    padding: 10px 20px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.06);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar li a:hover{
+    color: #AD8A1F;
+}
+
+.navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #AD8A1F;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+button{
+    border-radius: 5px;
+    padding: 10px;
+    border: transparent;
+    font-size: 1.5rem;
+    background: #e3b836;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+}
+button:hover{
+    border-radius: 5px;
+    padding: 10px;
+    border: transparent;
+    font-size: 1.5rem;
+    background: #AD8A1F;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+}

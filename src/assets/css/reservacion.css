@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.frame{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    backdrop-filter: blur(5px);
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.164)
+}
+
+.login{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin-top: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+.campos{
+    display: flex;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.elemento{
+    margin: 5px 5px 15px 5px;
+
+}
+
+.elemento input{
+    width: 100%;
+    padding: 8px 8px 8px 8px;
+    border: none;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 17px;
+    outline: none;
+    font-weight: bold;
+    background: white;
+}
+
+.elemento select{
+    padding: 8px 8px 8px 8px;
+    border: none;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 17px;
+    outline: none;
+    font-weight: bold;
+    background: white;
+}
+
+.log{
+    width: 100%;
+    padding: 10px;
+    margin-top: 1rem;
+    font-size: 25px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #e3b836;
+}
+
+.log:hover{
+    width: 100%;
+    padding: 10px;
+    margin-top: 1rem;
+    font-size: 25px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #AD8A1F;
+}
+

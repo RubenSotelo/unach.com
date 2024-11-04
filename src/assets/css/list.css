@@ -1,0 +1,101 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88vh;
+  margin: 0;
+  background-color: white;
+}
+
+.table_content {
+  width: 90%;
+  max-height: 400px;
+  /* Altura máxima para el scroll vertical */
+  overflow: auto;
+  /* Habilita el scroll si el contenido excede el contenedor */
+  border: 1px solid #ccc;
+  background-color: white;
+  border-color: white;
+}
+
+
+.table_head{
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.table_head button{
+  background-color: #009688;
+  margin: 10px;
+  width: auto;
+}
+
+.table_head button:hover{
+  background-color: #004d40;
+  margin: 10px;
+  width: auto;
+}
+
+
+table {
+
+  width: 100%;
+  border-collapse: collapse;
+}
+  
+thead {
+    background-color: #252850;
+    color: white;
+}
+  
+th, td {
+    padding: 0.8rem;
+    text-align: center;
+  }
+  
+td {
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }  
+
+tbody tr:hover {
+  background-color: #eee;
+}
+
+td {
+  display: table-cell;
+}
+
+.edit-btn {
+  margin: 5px;
+  background: #03a9f4;
+}
+
+.edit-btn:hover {
+  margin: 5px;
+  background: #01579b;
+}
+
+.delete-btn {
+  margin: 5px;
+  background: #f44336;
+}
+
+.delete-btn:hover {
+  margin: 5px;
+  background: #b71c1c;
+}
+
+.fit{
+  display: flex;
+  justify-content: center;
+}
+
+tbody tr{
+  justify-content:space-evenly;
+
+}
+thead tr{
+  justify-content:space-evenly;
+}
